@@ -6,7 +6,7 @@ body {
 	font-size: 150%;
 	line-height: 1.3;
 	color: #fff;
-	background-image: url("/images/universe.jpg");
+	background-image: url("./images/universe.jpg");
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
