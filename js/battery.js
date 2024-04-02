@@ -25,8 +25,10 @@ function updateBatteryStatus(battery) {
     // STEP 3b: Update the charging status
     if (battery.charging === true) {
         chargeStatus.textContent = "Charging...";
+        chargeStatus.style.color = "green";
     } else {
         chargeStatus.textContent = "Discharging...";
+        chargeStatus.style.color = "red";
     }
     // STEP 3c: Update the charge level
     chargeLevel.textContent = (Math.round(battery.level * 100).toFixed(0)) + "%";
